@@ -1,0 +1,149 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: #198754;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+.navbar-items{
+    border-right: 0.5px solid rgb(44, 41, 41);
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+.navbar-items:active{
+    color: #000000;
+}
+.formal-text{
+    margin-top: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.nav-add-btn{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+    font-size: 18px;
+}
+/* ################## */
+
+.addtask{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(57, 57, 57);
+}
+.saved-btn{
+    position: absolute;
+    top: 25vh;
+    display: none;
+    color: white;
+    background-color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.area{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 220px;
+    background-color: rgb(68, 68, 68);
+    padding: 10px;
+    border-radius: 10px;
+}
+#textarea{
+    width: 70vw;
+    min-height: 150px;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+}
+button{
+    margin-top: 10px;
+}
+/* ##################### */
+.tasks{
+    height: 100vh;
+    background-color: rgb(42, 42, 42);
+    overflow-y: scroll;
+
+}
+/* .alltasks{ 
+   
+} */
+.delete-btn{
+    position: relative;
+    top: 40px;
+    right: 25px;
+    z-index: 1;
+    color: red;
+    width: 30px;
+    float: right;
+    cursor: pointer;
+}
+.delete-btn:hover{
+    color: rgb(154, 0, 0);
+}
+.edit-btn{
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    left: 25px;
+    float: left;
+    z-index: 1;
+    color: rgb(80, 171, 210);
+    width: 30px;
+}
+.edit-btn:hover{
+    color: rgb(47, 115, 145);
+}
+.task{
+    position: relative;
+    top: 10px;
+    margin: 0 20px;
+    background-color: rgb(62, 62, 62);
+    padding: 50px 20px 30px 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    text-shadow: 1px 1px 10px white;
+    margin-bottom: 10px;
+}
+.editBox{
+    display: none;
+}
+#newtextarea{
+    margin-top: 15px;
+    width: 70vw;
+    height: 45px !important;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow-y: hidden;
+}
+.newSubmit{
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 30vw;
+    /* margin: 0; */
+    border-radius: 10px;
+    outline: none;
+}
+button:hover{
+    background-color: #181b1a !important;
+}
+.class1{
+    display: none;
+}
+.class2{
+    display: block;
+}
+.class3{
+    display: flex;
+}
